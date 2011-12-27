@@ -11,7 +11,7 @@ namespace LinqDemo
     public class SequenceGenerator
     {
         [LinqDemoMethod]
-        [Description("Iterate through increasing lists of an underlying set of items, using two different methods.")]
+        [Description("Iterate through increasing lists of an underlying set of items (i.e., all distinct subsequences)/, using two different methods.")]
         public static void DemoSequenceGenerator()
         {
             Util.Entering();
